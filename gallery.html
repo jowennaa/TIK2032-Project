@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Portfolio Saya</title>
+    <style>
+        body {
+    background-image: url('images/blaugrana.jpg'); /* Sesuaikan path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif; /* Font lebih estetik */
+    color: white; /* Warna teks agar lebih kontras */
+}
+
+.gallery-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    background: rgba(255, 255, 255, 0.1); /* Efek transparan */
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Efek hover */
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .gallery-item {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .caption {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #555;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #007BFF;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gallery</h1>
+    <div class="gallery-title">Blaugrana Moments</div>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="blog.html">Blog</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="images/barca 6-1.jpg" alt="Barca 6-1">
+            <p class="caption">La Remontada: The Greatest Comeback in Football History!</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/barca 6-2.jpg" alt="Barca 6-2">
+            <p class="caption">El Clásico Masterpiece: Barça’s 6-2 Domination!</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/barca 2015.jpg" alt="Barca 2015">
+            <p class="caption">Champions of Europe: Barça’s 2015 Glory!</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/barca sextuple.jpg" alt="Barca Sextuple">
+            <p class="caption">The Year of the Sextuple: Barça’s Ultimate Glory!</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/el clasico 2-5.jpg" alt="El Clasico">
+            <p class="caption">Barça Dominates El Clásico: 5-2 Statement Win!</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/messi 91 goal.jpg" alt="Messi 2012">
+            <p class="caption">91 Goals in 2012: Messi’s Unbreakable Record!/p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/messi cold.jpg" alt="Messi Cold">
+            <p class="caption">Messi’s Iconic Celebration: King of El Clásico!</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/trio msn.jpg" alt="Trio MSN">
+            <p class="caption">MSN Trio: Unstoppable & Unforgettable!</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/trio llr.jpg" alt="Trio LLR">
+            <p class="caption">The new Barça trio is here! Yamal, Lewy, Raphinha!</p>
+        </div>
+    </div>
+    <script src="Tugas-js/main.js"></script>
+</body>
+</html>
